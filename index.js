@@ -1,46 +1,42 @@
 //Qustion #1
-// Sum of all digits of a number. For example, 123 -> 1+2+3=6
-// let a = [1, 2, 3, 4, 5, 6, 7,8, 9, 10, 11, 90, 100];
+// let number = 12345;
+// let sum = 0;
 
-// let result = 0;
+// while (number > 0) {
+//     sum += number % 10;
+//     number = Math.floor(number / 10);
+// }
 
-//  for(var i =0; i < a.length; i++){
-//    result += a[i];
-//  }
-//    console.log(result)
+// console.log(sum);
 
 
 //Question #2
 //Sum of the range of 2 numbers. For example, num1=2, num2=5 -> 2+3+4+5=14
 
-// function sumRange(num1, num2) {
-//     let sum = 0;
-//     for (let i = num1; i <= num2; i++) {
-//       sum += i;
-//     }
-//     return sum;
-//   }
-//   console.log(sumRange(5, 8));
+// let num1 = 2;
+// let num2 = 5;
+// let sum = 10;
+
+// for (let i = num1; i <= num2; i++) {
+//     sum += i;
+// }
+
+// console.log("Sum of the range:", sum);
     
 
 
 //Question #3
-function calculateAverage(numbers) {
-    if (numbers.length === 0) {
-      return 0; // Return 0 if the array is empty
-    }
-  
-    let sum = 0;
-    for (let i = 0; i < numbers.length; i++) {
-      sum += numbers[i]; //add num
-    }
-  
-    let average = sum / numbers.length; 
-    return average; //avg num
-  }
-  
-  let numbers = [1, 2, 3];
-  console.log(calculateAverage(numbers));
+// Calculate the average of numbers given in an array.
+// let numbers = [2, 4, 5, 6, 8, 10];
+// let sum = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//     sum += numbers[i];
+// }
+
+// let average = sum / numbers.length;
+
+// console.log("The average is: " + average);
 
 //Question #4
 // Compare strings by count of characters. For example, car and bat are equal. car and care are not.
